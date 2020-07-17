@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+    <%- include ('partials/header.html')%>
+</head>
+
+<body>
+    <%- include ('partials/navegation.html')%>
+
+        <div class="container  p-5">
+                <div class="row">
+                    <!-- col md 4 offset md 4 perfecta centro -->
+                <div class="col-md-4   offset-md-4">
+                    <div class="card animate__animated animate__flip">
+                        <div class="card-header  bg-dark  text-center  text-white">
+                             <h3>Contactame</h3>
+                        </div>
+                        <div class="card-body ">
+                            <div class="form-group">
+                                <input type="text" placeholder="ingrese .." class="form-control">
+                            </div>
+                            <div class="form-group">
+                            <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="ingrese usuarios.."></textarea>
+                            </div>
+                            <button class="btn btn-primary  btn-block">Registrar</button>
+                         </div>
+                        
+                    </div>
+            </div>
+        </div>
+        
+   </div>
+   
+    
+   <%- include ('partials/footer.html')%>
+</body>
+
+</html>
